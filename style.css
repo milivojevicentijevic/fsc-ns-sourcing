@@ -25,6 +25,9 @@ basic styles
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: var(--fontFamily);
     font-size: var(--fontSize);
@@ -235,4 +238,20 @@ brojac
 }
 #brojac article p {
     font-size: 3rem;
+}
+/***************
+cta
+***************/
+#cta {
+    text-align: center;
+}
+#cta p {
+    padding-bottom: 30px;
+}
+#cta p + button {
+    background-color: var(--blue);
+    color: var(--white);
+}
+#cta p + button:hover {
+    background-color: var(--tertiary);
 }
