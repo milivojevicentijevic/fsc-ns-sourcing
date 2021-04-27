@@ -199,3 +199,40 @@ usluge
     font-size: 1.2rem;
     padding: 30px 0;
 }
+/***************
+brojac
+***************/
+#brojac {
+    text-align: center;
+}
+#brojac div {
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+    color: var(--white);
+    padding-top: 20px;
+}
+#brojac div:nth-child(1) {
+    background-color: var(--primary);
+}
+#brojac div:nth-child(2) {
+    background-color: var(--secondary);
+}
+#brojac div:nth-child(3) {
+    background-color: var(--tertiary);
+}
+#brojac div:nth-child(4) {
+    background-color: var(--blue);
+}
+#brojac div:nth-child(5) {
+    background-color: var(--violet);
+}
+#brojac h3 {
+    color: var(--white);
+}
+#brojac i {
+    font-size: 2rem;
+}
+#brojac article p {
+    font-size: 3rem;
+}
