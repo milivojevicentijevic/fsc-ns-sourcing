@@ -114,6 +114,7 @@ main {
     margin: auto;
     background-color: var(--white);
     border-radius: 5px;
+    overflow: hidden;
 }
 /***************
 nav
