@@ -255,3 +255,57 @@ cta
 #cta p + button:hover {
     background-color: var(--tertiary);
 }
+/***************
+footer
+***************/
+/***************
+footer
+***************/
+footer {
+    max-width: 1140px;
+    margin: auto;
+    color: var(--white);
+}
+footer h3 {
+    color: var(--white);
+    font-size: 2rem;
+}
+footer p {
+    opacity: .8;
+}
+footer article:first-child {
+    float: left;
+    width: 48%;
+}
+footer article:last-child {
+    float: right;
+    width: 48%;
+}
+footer span {
+    font-weight: 400;
+    margin-right: 50px;
+}
+footer ul {
+    margin-top: 20px;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    color: var(--white);
+    margin-right: 40px;
+    font-size: 2rem;
+}
+footer ul li a:hover {
+    opacity: .7;
+}
+footer button {
+    background-color: transparent;
+    margin-top: 20px;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+footer button:hover {
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
