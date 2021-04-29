@@ -259,9 +259,6 @@ cta
 /***************
 footer
 ***************/
-/***************
-footer
-***************/
 footer {
     max-width: 1140px;
     margin: auto;
@@ -310,3 +307,44 @@ footer button:hover {
     background-color: var(--blue);
     border: 1px solid var(--blue);
 }
+/***************
+responsive
+***************/
+@media(max-width: 767px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .clearfix {
+        padding: 25px;
+    }
+    header {
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    nav ul li a {
+        background-color: transparent;
+        margin: 0px;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+    main {
+        width: 90%;
+    }
+    #onama article:first-child,
+    #onama article:last-child,
+    #usluge article, #brojac div,
+    footer article:first-child,
+    footer article:last-child {
+        width: 100%;
+    }
+    #onama article:last-child,
+    footer article:last-child {
+        margin-top: 30px;
+    }
+    footer span {
+        margin-right: 20px;
+    }
+    
+} 
